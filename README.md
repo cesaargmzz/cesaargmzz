@@ -1,25 +1,8 @@
 <div align="center">
-
-```
- ██████╗███████╗███████╗ █████╗ ██████╗
-██╔════╝██╔════╝██╔════╝██╔══██╗██╔══██╗
-██║     █████╗  ███████╗███████║██████╔╝
-██║     ██╔══╝  ╚════██║██╔══██║██╔══██╗
-╚██████╗███████╗███████║██║  ██║██║  ██║
- ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-```
-
-### `> Hola, soy César_`
-
-*Estudiante del doble grado de Ingeniería Informática + ADE*
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Machine+Learning+%F0%9F%A4%96;Deep+Learning+%F0%9F%A7%A0;Inteligencia+Artificial+%E2%9C%A8;Rob%C3%B3tica+%F0%9F%A6%BE;Explorando+el+espacio+%F0%9F%9A%80;...+y+lo+que+se+cruce+%F0%9F%98%84)](https://git.io/typing-svg)
-
+  <img src="./banner.svg" width="100%"/>
 </div>
 
 ---
-
-<img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ### 🧠 Sobre mí
 
