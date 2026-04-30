@@ -24,12 +24,11 @@
 ### 🧠 Sobre mí
 
 - 🎓 Doble grado **Ingeniería Informática + ADE**
-- 🤖 Apasionado por **Machine Learning & Deep Learning**
-- 🧬 Fascinado por la **Inteligencia Artificial** aplicada
-- 🦾 Curioso sobre **Robótica** y sistemas autónomos
-- 🚀 Soñando con el **espacio** (y con cómo la IA lo conquistará)
-- 📊 Explorando la intersección entre **tecnología y negocio**
-- 🌱 Siempre aprendiendo — de todo, sin límites
+- 🤖 Machine Learning & Deep Learning
+- ✨ Inteligencia Artificial
+- 🦾 Robótica
+- 🚀 Espacio
+- 📊 Tecnología y negocio
 
 ---
 
