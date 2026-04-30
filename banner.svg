@@ -1,0 +1,110 @@
+<svg width="100%" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Banner espacial animado para el perfil de César</title>
+<desc>Escena espacial con estrellas parpadeantes, planeta y texto animado</desc>
+<defs>
+<radialGradient id="planet" cx="50%" cy="35%" r="60%">
+<stop offset="0%" stop-color="#1a6fa8"/>
+<stop offset="40%" stop-color="#0d4a7a"/>
+<stop offset="100%" stop-color="#040e1a"/>
+</radialGradient>
+<radialGradient id="atmos" cx="50%" cy="50%" r="50%">
+<stop offset="70%" stop-color="transparent"/>
+<stop offset="100%" stop-color="#1a9fff" stop-opacity="0.35"/>
+</radialGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#00aaff" stop-opacity="0.12"/>
+<stop offset="100%" stop-color="transparent"/>
+</radialGradient>
+<clipPath id="clip-planet">
+<circle cx="574" cy="110" r="62"/>
+</clipPath>
+<style>
+.star { fill: #fff; }
+@keyframes twinkle1 { 0%,100%{opacity:1} 50%{opacity:0.15} }
+@keyframes twinkle2 { 0%,100%{opacity:0.6} 50%{opacity:1} }
+@keyframes twinkle3 { 0%,100%{opacity:0.3} 50%{opacity:0.9} }
+@keyframes orbit { from{transform-origin:574px 110px; transform:rotate(0deg)} to{transform-origin:574px 110px; transform:rotate(360deg)} }
+@keyframes fadein { from{opacity:0;transform:translateX(-18px)} to{opacity:1;transform:translateX(0)} }
+@keyframes fadeinsub { from{opacity:0;transform:translateX(-12px)} to{opacity:1;transform:translateX(0)} }
+@keyframes pulse { 0%,100%{opacity:0.7} 50%{opacity:1} }
+.s1 { animation: twinkle1 3.1s ease-in-out infinite; }
+.s2 { animation: twinkle2 2.4s ease-in-out infinite; }
+.s3 { animation: twinkle3 4.2s ease-in-out infinite; }
+.s4 { animation: twinkle1 1.9s ease-in-out infinite; }
+.s5 { animation: twinkle2 3.7s ease-in-out infinite; }
+.orb { animation: orbit 18s linear infinite; }
+.title-text { animation: fadein 1s ease-out both; }
+.sub-text { animation: fadeinsub 1s ease-out 0.5s both; opacity:0; }
+.cursor { animation: pulse 0.9s ease-in-out infinite; }
+</style>
+</defs>
+<rect width="680" height="200" fill="#020b18"/>
+<circle class="star s1" cx="12" cy="18" r="1.2"/>
+<circle class="star s3" cx="38" cy="7" r="0.8"/>
+<circle class="star s2" cx="67" cy="30" r="1.1"/>
+<circle class="star s4" cx="95" cy="12" r="0.7"/>
+<circle class="star s1" cx="130" cy="25" r="1.3"/>
+<circle class="star s5" cx="158" cy="8" r="0.9"/>
+<circle class="star s3" cx="190" cy="19" r="0.6"/>
+<circle class="star s2" cx="220" cy="35" r="1.1"/>
+<circle class="star s4" cx="255" cy="10" r="0.8"/>
+<circle class="star s1" cx="290" cy="22" r="1.4"/>
+<circle class="star s5" cx="320" cy="5" r="0.7"/>
+<circle class="star s2" cx="355" cy="28" r="1.0"/>
+<circle class="star s3" cx="385" cy="14" r="0.9"/>
+<circle class="star s4" cx="418" cy="33" r="0.6"/>
+<circle class="star s1" cx="450" cy="9" r="1.2"/>
+<circle class="star s3" cx="22" cy="55" r="0.7"/>
+<circle class="star s2" cx="50" cy="70" r="1.0"/>
+<circle class="star s5" cx="85" cy="48" r="0.8"/>
+<circle class="star s1" cx="110" cy="80" r="1.3"/>
+<circle class="star s4" cx="145" cy="60" r="0.6"/>
+<circle class="star s3" cx="175" cy="90" r="0.9"/>
+<circle class="star s2" cx="205" cy="52" r="1.1"/>
+<circle class="star s5" cx="240" cy="75" r="0.7"/>
+<circle class="star s1" cx="275" cy="62" r="1.2"/>
+<circle class="star s4" cx="308" cy="88" r="0.8"/>
+<circle class="star s3" cx="338" cy="50" r="1.0"/>
+<circle class="star s2" cx="370" cy="78" r="0.6"/>
+<circle class="star s5" cx="400" cy="42" r="1.3"/>
+<circle class="star s1" cx="430" cy="68" r="0.9"/>
+<circle class="star s4" cx="18" cy="130" r="1.1"/>
+<circle class="star s2" cx="55" cy="115" r="0.7"/>
+<circle class="star s3" cx="88" cy="145" r="0.9"/>
+<circle class="star s5" cx="120" cy="120" r="1.4"/>
+<circle class="star s1" cx="152" cy="155" r="0.6"/>
+<circle class="star s4" cx="185" cy="132" r="1.0"/>
+<circle class="star s2" cx="218" cy="160" r="0.8"/>
+<circle class="star s3" cx="250" cy="118" r="1.2"/>
+<circle class="star s5" cx="282" cy="148" r="0.7"/>
+<circle class="star s1" cx="315" cy="128" r="1.1"/>
+<circle class="star s4" cx="348" cy="165" r="0.9"/>
+<circle class="star s2" cx="380" cy="138" r="1.3"/>
+<circle class="star s3" cx="412" cy="152" r="0.6"/>
+<circle class="star s5" cx="28" cy="180" r="0.8"/>
+<circle class="star s1" cx="70" cy="190" r="1.0"/>
+<circle class="star s4" cx="108" cy="175" r="0.7"/>
+<circle class="star s2" cx="148" cy="192" r="1.2"/>
+<circle class="star s3" cx="188" cy="178" r="0.9"/>
+<circle class="star s5" cx="228" cy="188" r="0.6"/>
+<circle class="star s1" cx="268" cy="172" r="1.1"/>
+<circle class="star s4" cx="308" cy="185" r="0.8"/>
+<circle class="star s2" cx="348" cy="176" r="1.3"/>
+<circle class="star s3" cx="388" cy="190" r="0.7"/>
+<circle cx="574" cy="110" r="62" fill="url(#planet)"/>
+<rect x="512" y="80" width="124" height="60" fill="#0d4a7a" clip-path="url(#clip-planet)"/>
+<ellipse cx="545" cy="95" rx="18" ry="8" fill="#1a6fa8" fill-opacity="0.6" clip-path="url(#clip-planet)"/>
+<ellipse cx="600" cy="120" rx="22" ry="9" fill="#1a6fa8" fill-opacity="0.5" clip-path="url(#clip-planet)"/>
+<ellipse cx="560" cy="140" rx="14" ry="6" fill="#1a6fa8" fill-opacity="0.4" clip-path="url(#clip-planet)"/>
+<circle cx="574" cy="110" r="62" fill="url(#atmos)"/>
+<circle cx="574" cy="110" r="72" fill="url(#glow)"/>
+<g class="orb">
+<circle cx="574" cy="48" r="5" fill="#c8d8e8"/>
+<circle cx="574" cy="48" r="8" fill="none" stroke="#c8d8e8" stroke-width="0.5" stroke-opacity="0.4"/>
+</g>
+<text class="title-text" x="48" y="98" font-family="'Fira Code', 'Courier New', monospace" font-size="32" font-weight="700" fill="#e8f4ff" letter-spacing="-0.5">Hola, soy César</text>
+<text class="title-text cursor" x="360" y="98" font-family="'Fira Code', monospace" font-size="32" font-weight="700" fill="#00aaff">_</text>
+<text class="sub-text" x="50" y="128" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#7ab8d4" letter-spacing="0.5">Ingeniería Informática + ADE  ·  ML · IA · Robótica · Espacio</text>
+<line x1="48" y1="142" x2="340" y2="142" stroke="#1a6fa8" stroke-width="0.5" stroke-opacity="0.6"/>
+<text class="sub-text" x="50" y="162" font-family="'Fira Code', monospace" font-size="11" fill="#4a8aaa" letter-spacing="1"><tspan>&gt; </tspan><tspan fill="#7ab8d4">building</tspan><tspan fill="#4a8aaa"> things that matter</tspan></text>
+</svg>
